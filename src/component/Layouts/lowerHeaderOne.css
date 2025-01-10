@@ -1,0 +1,44 @@
+.lower-nav {
+    height: 34px;
+    width: auto;
+    background-color: #53595f;
+    color: aliceblue;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    font-size: 11px; /* Adjust font size for visibility */
+    font-weight: 600;
+    margin: 0;
+    padding: 0 10px; /* Add padding for spacing */
+    position: relative; /* Ensure positioning context */
+    border-bottom: 1px solid white;
+    border-top: 1px solid #4e5255;
+}
+
+.lower-nav span {
+    margin: 0 5px; /* Add horizontal spacing between nav links */
+}
+
+.right-pic {
+    margin-left: auto; /* Push the image container to the right */
+    position: absolute; /* Positioning context for absolute positioning */
+    top: 0; /* Align with the top of the parent */
+    right: 0; /* Align with the right of the parent */
+    height: 34px; /* Match the height of the lower-nav */
+}
+
+.right-pic > img {
+    height: 34px; /* Set to match the height of the navigation */
+    width: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove any default margin */
+    display: block; /* Remove any bottom spacing */
+}
+
+.menu-icon {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-right: 10px; /* Space after the menu icon */
+}
+
+.first-active {
+    padding: 0 10px; /* Add padding for spacing */
+}

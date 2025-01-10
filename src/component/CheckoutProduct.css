@@ -1,0 +1,33 @@
+checkout_product {
+    display: flex;
+    margin: 15px 0;
+    }
+.checkout_product_image {
+    width: 40%;
+    height: 40%;
+    margin: 8px 30px;
+    }    
+ .checkout_product_info {
+    display: flex;
+    flex-direction: column;
+    }   
+.checkout_product_price{
+    margin: 0 0 20px 0;
+    }    
+ .checkout_product_rating p  
+   {
+        display: inline-flex;
+        color: black;
+    }   
+    
+    
+.remove_product_button button {
+    background-color: #f0c14b;
+    border: 1px solid gray;
+    }    
+.remove_product_button button:hover {
+    background-color: #eeb72c;
+    border: 1px solid gray;
+    cursor: pointer;
+    }
+        

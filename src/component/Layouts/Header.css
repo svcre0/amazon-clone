@@ -1,0 +1,164 @@
+.header { 
+    display: flex;
+    align-items: center;
+    background-color: #26313f;
+    height: 60px;
+    padding: 0 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: -30px; 
+    padding-top: 10px;
+}
+
+.lang {
+    
+   color: #c0c0c0;
+    margin-left: 22px;
+    margin-top: 3px;
+ 
+}
+
+.lang:hover {
+    color: #714c4c; 
+}
+.links{
+  text-decoration: none;  
+}
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.logo-tag {
+    color: white;
+    font-size: 11px;
+    margin-left: -29px;
+    margin-top: -4px;
+}
+
+.header-option {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+.product-link{
+text-decoration: none;
+
+}
+.header-option:hover {
+    transform: scale(1.1); 
+}
+
+.delivery-info {
+    display: flex;
+    flex-direction: column; 
+}
+.delivery-header-optionOne {
+   font-size:12px;
+}
+.header-optionOne {
+    font-size: 11px;
+}
+
+.header-optionTwo {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.location-icon {
+    color: rgb(195, 195, 195);
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.header-search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0 20px;
+    margin-right: 10px;
+}
+
+.header-search-input {
+    height: 35px;
+    width: 610px;
+    border: none;
+    padding: 0 12px;
+}
+
+.search-icon {
+    height: 35px;
+    background-color: rgb(232, 188, 87);
+    border-radius: 0 5px 5px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; 
+}
+
+.all-search {
+    background-color: rgb(192, 192, 192);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px 0 0 5px;
+    height: 35px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+   font-size:10px;
+}
+
+.header-basket {
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: color 0.3s;
+   
+}
+
+.header-basket:hover {
+    color: #e0e0e0; 
+}
+
+.basket-count {
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 9px; 
+    padding: 2px 5px; 
+    color: rgb(201, 136, 15);
+    font-weight: 700;
+    margin-right: 5px;
+
+}
+.basket-link{
+    text-decoration: none;
+
+}
+.option_basketLink  {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    margin-left: -12px;
+    font-size: 13px;
+}
+
+.header-optionLink {
+    margin-right: 20px; 
+    transition: color 0.3s; 
+    text-decoration: none; 
+}
+
+.header-optionLink:hover {
+    color: #e0e0e0; 
+}
+

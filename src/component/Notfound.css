@@ -1,0 +1,18 @@
+.page-not-found{
+
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+ .page-not-found img{
+height: 410px;
+padding-left: 60px;
+padding-top: 20px;
+justify-content: center;
+  display: flex;
+
+ }
