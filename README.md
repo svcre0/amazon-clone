@@ -1,5 +1,6 @@
 # amazon-clone
-This file explains the key functionalities of the E-Commerce amazon clone  Website built using React and various web technologies. The platform provides an intuitive user experience with features like product search, order management, checkout, and secure payment integration. The project leverages Firebase, Firestore, Stripe, and other technologies for efficient data management and payment processing.
+ key functionalities of the E-Commerce amazon clone  Website built using React and various web technologies.
+ The platform provides an intuitive user experience with features like product search, order management, checkout, and secure payment integration. The project leverages Firebase, Firestore, Stripe, and other technologies for efficient data management and payment processing.
 
 Technologies Used
 React - For building the user interface.
